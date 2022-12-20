@@ -555,6 +555,10 @@ video {
   position: absolute;
 }
 
+.relative {
+  position: relative;
+}
+
 .top-5 {
   top: 1.25rem;
 }
@@ -565,6 +569,10 @@ video {
 
 .z-50 {
   z-index: 50;
+}
+
+.m-0 {
+  margin: 0px;
 }
 
 .mx-auto {
@@ -872,6 +880,14 @@ video {
 
 .pb-5 {
   padding-bottom: 1.25rem;
+}
+
+.pt-20 {
+  padding-top: 5rem;
+}
+
+.pt-24 {
+  padding-top: 6rem;
 }
 
 .text-center {
