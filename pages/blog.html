@@ -20,8 +20,16 @@
         </div>
     </nav>
 
-    <div id="burguerNav" class="absolute top-5 right-6 md:hidden">
+    <div id="burguerNav" class="absolute top-5 right-6 md:hidden z-50">
         <i class="fa-solid fa-bars text-3xl"></i>
+    </div>
+
+    <div id="nav-mobile" class="fixed w-screen h-screen bg-primary-color opacity-90 -translate-x-full transition duration-150 ease-in  ">
+        <ul class="flex flex-col items-center justify-center h-screen gap-20 text-4xl pl-6 font-medium text-white underline underline-offset-8 ">
+          <li class="hover:text-dark-color"><a href="/pages/works.html">Work</a></li>
+          <li class="hover:text-dark-color"><a href="/pages/blog.html">blog</a></li>
+          <li class="hover:text-dark-color"><a href="/index.html">Contact</a></li>
+        </ul>
     </div>
 
     <section id="blog" class="mt-24">
@@ -70,6 +78,7 @@
           <div><p class="text-center text-base font-normal">Copyright ©2020 All rights reserved </p></div>
         </div>
     </footer>  
-      
+    
+    <script type="module" src="/main.js"></script>
 </body>
 </html>
